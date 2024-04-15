@@ -137,7 +137,7 @@ $("a.next").click(function(e){
 		let subTitle=data.branch[n].location;
 
 		$("#city > a").text(title);
-		$("#branch > a").text(subTitle+" 센터");
+		$("#branch > a").text("지점명");
 
 		let locationDOM="";
 		
